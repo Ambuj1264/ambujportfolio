@@ -27,7 +27,7 @@ const Intro: FC<IntroProps> = ({}) => {
                             <History size={16} /> 1 month ago
                         </List>
                         <List variant="info" sizes="xs">
-                            <ThumbsUp size={16} /> 20,572
+                            <ThumbsUp size={16} /> 1,572
                         </List>
                     </div>
                 </div>
