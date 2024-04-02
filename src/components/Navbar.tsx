@@ -18,7 +18,7 @@ const Navbar:any = ({}) => {
         <nav className="flex sticky shadow-md top-0 z-20 bg-body p-5 text-info justify-between">
             <div>{/* Place holder for search bar */}</div>
             <div className="flex items-center gap-5">
-                <Button disabled onClick={handleClickContact}>
+                <Button  onClick={handleClickContact}>
                     Contact Me <User size={18} />
                 </Button>
                 <button onClick={() => showMenuVisibility(!showMenu)} type="button">
